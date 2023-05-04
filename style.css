@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/**** HEADER **/
+
+header{
+    background: linear-gradient(#ff6737, #c20000);
+    width: 100%;
+    height: 125px;
+    display: flex;
+    position: fixed;
+}
+
+nav{
+    float: right;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 65px;
+    float: left;
+    padding: 40px 0;
+}
+
+nav ul li{
+    color: white;
+    font-size: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 10px;
+}
+
+nav li a:hover{
+    color: white;
+}
+
+nav li:hover{
+    background-color: #ff8b55;
+    border-radius: 8px;
+}
+
+.imagen{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+
+/** DEGRADADO DE LETRAS **/
+h1{
+    font-family: 'Sigmar', cursive;
+    text-align: center;
+    padding-top: 125px;
+    font-size: 60px;
+}
+
+.degra{
+    background-image: linear-gradient(45deg,#ffa372, #ff0000);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+/** primera **/
+
+#primero{
+    width: 100%;
+    height: 125px;
+    background: transparent;
+}
+
+
+/** banner ***/
+
+#segundo{
+    background-image: url(13106906_5139993.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 875px;
+}
+
+/** inicio **/
+
+#tercero{
+    width: 100%;
+    height: 920px;
+    background: #E9E9E9;
+}
+
+#dentro{
+    width: 71%;
+    height: 110px;
+    background-image: url(tren.png);
+    background-repeat: no-repeat;
+    margin-top: 595px;
+    float: right;
+}
+
+
+/** Calendario **/
+
+#cuarto{
+    width: 100%;
+    height: 920px;
+    background-color: #FFFFFF;
+}
+
+#edificio{
+    width: 100%;
+    height: 600px;
+    background-image: url(fondo-ciudad.png);
+    background-repeat: no-repeat;
+    margin-top: 380px;
+}
+
+/** Articulos **/
+
+#quinto{
+    width: 100%;
+    height: 920px;
+    background-color: #E9E9E9;
+
+}
+
+/** Más **/
+
+#sexto{
+    width: 100%;
+    height: 920px;
+    background-color: #FFFFFF;
+}
+
+
+/*** FOOTER **/
+
+footer{
+    width: 100%;
+    height: 283px;
+    background: #db0003;
+    display: flex;
+}
+
+
+.nombre{
+    width: 55%;
+    height: 283px;
+}
+
+.nombre h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    padding-top: 125px;
+    padding-left: 35px;
+}
+
+.redes{
+    width: 45%;
+    height: 283px;
+    padding-top: 125px;
+}
+
+.redes li{
+    color: white;
+    list-style: none;
+    font-size: 20px;
+    display: inline;
+    font-size: 55px;
+    padding-left: 30px;
+}
+
+
+
